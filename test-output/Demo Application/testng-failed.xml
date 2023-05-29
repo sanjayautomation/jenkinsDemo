@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Application]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestLayer.Demo4"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestLayer.Demo3">
+        <methods>
+          <include name="pqr"/>
+        </methods>
+      </class> <!-- TestLayer.Demo3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Demo Application] -->
