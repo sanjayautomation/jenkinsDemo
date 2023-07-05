@@ -68,7 +68,7 @@
 			<version>5.0.9</version>
 		</dependency>
 	</dependencies>
-	<build>
+	 <build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
