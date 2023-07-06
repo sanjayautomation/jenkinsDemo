@@ -32,7 +32,7 @@ public class LoginPageTest extends BaseClass {
 	@Test (priority = 3)
 	public void validateUrl() throws InterruptedException {
 	
-		Assert.assertEquals(true, driver.getCurrentUrl().contains("cogmentro"));
+		Assert.assertEquals(true, driver.getCurrentUrl().contains("cogmento"));
 	}
 	@AfterTest
 	public void teardown() {
