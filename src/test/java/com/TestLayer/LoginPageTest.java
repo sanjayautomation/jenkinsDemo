@@ -34,6 +34,10 @@ public class LoginPageTest extends BaseClass {
 	
 		Assert.assertEquals(true, driver.getCurrentUrl().contains("cogmento"));
 	}
+	@Test (priority =4)
+	public void abc() {
+		Assert.assertEquals(true, true);
+	}
 	@AfterTest
 	public void teardown() {
 		driver.close();
